@@ -37,4 +37,47 @@ So, the minimum number of guesses depends upon range. And the compiler must calc
  If not, then Player 2 wins the game.
  The real game, however, has proved aesthetics since the numbers are represented by color-coded buttons.
 
-
+## 2048 Game 
+Commands are as follows : 
+'W' or 'w' : Move Up
+'S' or 's' : Move Down
+'A' or 'a' : Move Left
+'D' or 'd' : Move Right
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 2, 0]
+Press the command : a
+GAME NOT OVER
+[0, 0, 0, 2]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[2, 0, 0, 0]
+Press the command : s
+GAME NOT OVER
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 2, 0]
+[2, 0, 0, 2]
+Press the command : d
+GAME NOT OVER
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[2, 0, 0, 2]
+[0, 0, 0, 4]
+Press the command : a
+GAME NOT OVER
+[0, 2, 0, 0]
+[0, 0, 0, 0]
+[4, 0, 0, 0]
+[4, 0, 0, 0]
+Press the command : s
+GAME NOT OVER
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[8, 2, 0, 2]
+.
+.
+.
+And the series of input output will go on till we lose or win!
